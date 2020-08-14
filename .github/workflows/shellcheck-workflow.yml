@@ -1,10 +1,10 @@
 name: Run ShellCheck
 on: push
 
-jobs:
-	shellcheck:
+jobs: 
+	shellcheck: 
 		name: ShellCheck
 		runs-on: ubuntu-latest
-		steps:
+		steps: 
 			- name: Run ShellCheck
 			  uses: ludeeus/action-shellcheck@0.5.0
