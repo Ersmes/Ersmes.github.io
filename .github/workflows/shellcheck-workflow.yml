@@ -6,5 +6,7 @@ jobs:
     name: ShellCheck
     runs-on: ubuntu-latest
     steps: 
+      - name: Run Checkout
+        uses: actions/checkout@v2
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@0.5.0
